@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7fb;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #2b7a78;
+    margin-bottom: 20px;
+}
+
+/* --- Add Section --- */
+#addExerciseSection {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#exerciseForm input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#exerciseForm button {
+    background-color: #3aafa9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#exerciseForm button:hover {
+    background-color: #2b7a78;
+}
+
+#statusMsg {
+    color: green;
+    margin-top: 10px;
+}
+
+/* --- Table --- */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3aafa9;
+    color: white;
+}
+
+tr:hover {
+    background-color: #def2f1;
+    transition: 0.3s;
+}
+
+/* --- Delete Button --- */
+.delete-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
